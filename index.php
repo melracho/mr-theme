@@ -7,7 +7,7 @@ get_header(); ?>
 
 
   		
-  <section class="row" id="cover-section" style="padding-top:20px;">  
+  <section class="row">  
   			
 	<?php if (have_posts()) : ?>	 			
   			<?php $menu = new WP_Query('category_name=home&order=ASC'); ?>
