@@ -1,0 +1,11 @@
+/*
+Theme Name: Innovation Ignited
+Author: Office of the VP, Research and Innovation
+Version: 1
+Description: Based on HTML5 BP and the Twitter Boostrap 
+License: http://www.apache.org/licenses/LICENSE-2.0
+*/
+
+@import url("stylesheets/screen.css");
+@import url("stylesheets/print.css");
+@import url("http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700,800");

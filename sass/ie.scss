@@ -1,0 +1,29 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+ 
+ .results p {
+	 background-image: none !important;
+ }
+
+img#how-ignites, img#ignites-ignites, img#innovation-ignites, img#banting-ignites, img#utest-ignites, img#techno-ignites, , .callout h4 a i.icon-plus, .callout h4 a span.more, .callout p a i.icon-plus, .callout p a span.more, .cast-connex-drawing, .innovating-edu_drawing, .supercomputing_drawing, .info-assessment_drawing,  .toilet_drawing, .mars_drawing,  .lab-chip_drawing, .doc-office_drawing, .ecotec_drawing, .tracking-trends_drawing, .kingston-galloway_drawing, .cancer_drawing {
+	display: none;
+}
+
+section.realities {
+	overflow-y: visible !important;
+	height: auto !important;
+}
+
+.feature-img-cc img {
+	top:720px !important;
+	left:500px !important;
+}
+
+.feature-img-cc p {
+	left:500px !important;	
+	top:875px !important;
+}
+

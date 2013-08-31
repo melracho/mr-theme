@@ -1,0 +1,64 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 7, ../sass/ie.scss */
+
+body, html, h1, h2, h3, h4, h5 {
+	font-family: "Helvetica Neue","Arial", sans-serif !important; 
+}
+
+.results p {
+  background-image: none !important;
+}
+
+blockquote {
+	width: 100% !important;
+}
+
+
+/* line 11, ../sass/ie.scss */
+img#how-ignites, img#ignites-ignites, img#innovation-ignites, img#banting-ignites, img#utest-ignites, img#techno-ignites, .callout h4 a i.icon-plus, .callout h4 a span.more, .callout p a i.icon-plus, .callout p a span.more, .cast-connex-drawing, .innovating-edu_drawing, .supercomputing_drawing, .info-assessment_drawing, .toilet_drawing, .mars_drawing, .lab-chip_drawing, .doc-office_drawing, .ecotec_drawing, .tracking-trends_drawing, .kingston-galloway_drawing, .cancer_drawing, .helping-crops_drawing {
+  display: none;
+}
+
+/* line 15, ../sass/ie.scss */
+section.realities {
+  overflow-y: visible !important;
+  height: auto !important;
+}
+
+/* line 20, ../sass/ie.scss */
+.feature-img-cc img {
+  top: 720px !important;
+  left: 500px !important;
+}
+
+/* line 25, ../sass/ie.scss */
+.feature-img-cc p {
+  left: 500px !important;
+  top: 875px !important;
+}
+
+/* line 31, ../sass/ie.scss */
+.cover-right p {
+  display: none !important;
+}
+
+/* line 36, ../sass/ie.scss */
+.cover h1 {
+  left: 0px !important;
+  font-size: 50px !important;
+  line-height: 52px !important;
+}
+
+/* line 42, ../sass/ie.scss */
+.cover-right h2 {
+  top: 0px !important;
+}
+
+/* line 46, ../sass/ie.scss */
+input[type="file"], input[type="image"], input[type="submit"], input[type="reset"], input[type="button"], input[type="radio"], input[type="checkbox"] {
+  width: 60px;
+}
