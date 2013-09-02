@@ -26,8 +26,8 @@ get_header(); ?>
 
   			 <?php endwhile; ?>
   		
-  		
   </section>
+  	<?php endif; ?>
 	
   	<hr/>
 
