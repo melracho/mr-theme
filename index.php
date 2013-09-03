@@ -10,10 +10,10 @@ get_header(); ?>
   <section class="row">  
   			
 	<?php if (have_posts()) : ?>	 			
-  			<?php $menu = new WP_Query('category_name=home&order=ASC'); ?>
-			<?php while ($menu->have_posts()) : $menu->the_post(); ?>
+  			<?php $home = new WP_Query('tag=home&order=ASC'); ?>
+			<?php while ($home->have_posts()) : $home->the_post(); ?>
 			
-  	<div class="span6" >
+  	<div class="span12" >
  	 	<div>
  	 	<h1>
  	 	<?php the_title(); ?>
